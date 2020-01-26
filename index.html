@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Avrakhova Laura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITstep Dnipro, gr. web_2019, dz-js">
+    <title>Avrakhova dz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            1. Подсчитать сумму всех чисел в заданном пользователем диапазоне.
+        </div>
+        <button id="btnSum">Подсчитать сумму</button>
+        <div class="result resultSum"></div>
+    </section>
+    <section>
+        <div>
+           2. Запросить 2 числа и найти только наибольший общий делитель.
+        </div>
+        <button id="btnBigDel">Наибольший делитель</button>
+        <div class="result resultBigDel"></div>
+    </section>
+    <section>
+        <div>
+            3. Запросить у пользователя число и вывести все делители этого числа.
+        </div>
+        <button id="btnDel">Вывести делители</button>
+        <div class="result resultDel"></div>
+    </section>
+    <section>
+        <div>
+            4. Определить количество цифр в введенном числе.
+        </div>
+        <button id="btnAmountDigital">Количество цифр</button>
+        <div class="result resultAmountDigital"></div>
+    </section>
+    <section>
+        <div>
+            5. Запросить у пользователя 10 чисел и подсчитать, сколько он ввел положительных, отрицательных и нулей. При этом также посчитать, сколько четных и нечетных. Вывести
+            статистику на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел пользователем.
+        </div>
+        <button id="btnTenDigital">10 чисел</button>
+        <div class="result resultTenDigital"></div>
+    </section>
+    <section>
+        <div>
+            6. Зациклить калькулятор. Запросить у пользователя 2 числа и знак, решить пример, вывести результат и спросить, хочет ли он решить еще один пример. И так до тех пор, пока
+            пользователь не откажется.
+        </div>
+        <button id="btnCalculator">Калькулятор</button>
+        <div class="result resultCalculator"></div>
+    </section>
+    <section>
+        <div>
+            7. Запросить у пользователя число и на сколько цифр его сдвинуть. Сдвинуть цифры числа и вывести результат (если число 123456 сдвинуть на 2 цифры, то получится 345612).
+        </div>
+        <button id="btnShiftDigital">Сдвинуть цифры числа</button>
+        <div class="result resultShiftDigital"></div>
+    </section>
+    <section>
+        <div>
+            8. Зациклить вывод дней недели таким образом: «День недели. Хотите увидеть следующий день?» и так до тех пор, пока пользователь нажимает OK. 
+        </div>
+        <button id="btnDayOfWeek">День недели</button>
+    </section>
+    <section>
+        <div>
+            9. Вывести таблицу умножения для всех чисел от 2 до 9. Каждое число необходимо умножить на числа от 1 до 10.
+        </div>
+        <button id="btnMultTable">Таблица умножения</button>
+        <div class="result">
+            <div class="range2"></div>
+            <div class="range3"></div>
+            <div class="range4"></div>
+            <div class="range5"></div>
+            <div class="range6"></div>
+            <div class="range7"></div>
+            <div class="range8"></div>
+            <div class="range9"></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            10. Игра «Угадай число». Предложить пользователю загадать число от 0 до 100 и отгадать его следующим способом: каждую итерацию цикла делите диапазон чисел пополам,
+            записываете результат в N и спрашиваете у пользователя «Ваше число > N, < N или == N?». В зависимости от того что указал пользователь, уменьшаете диапазон. Начальный
+            диапазон от 0 до 100, поделили пополам и получили 50. Если пользователь указал, что его число > 50, то изменили диапазон на от 51 до 100. И так до тех пор, пока пользователь 
+            не выберет == N.
+        </div>
+        <button id="btnGuessNumber">Угадай число</button>
+        <div class="result resultGuessNumber"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
